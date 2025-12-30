@@ -13,13 +13,13 @@ b= 10
 c=2
 d=3
 e=10
-a+=b  #The value of a and b are saved in the a 
+a+=b  
 b-=a  
 c*=d
 d/=c
 e//=c
-print(a) 
-print(b) 
-print(c) 
-print(d) 
-print(e) 
+print(a) #The value of a and b are saved in the a
+print(b) #The value of b subtracted by a and assigned to b
+print(c) #The value of c multiplied by d and assigned to c
+print(d) #The value of d divided by c and assigned to d
+print(e) #The value of e modular divided by c and assigned to e
