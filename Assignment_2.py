@@ -61,7 +61,7 @@ else :
 #Sample input :- Enter three numbers : 15,8,21
 #Sample output :- Largest number is :21
 
-s=input("Enter the three digits with \", \"in betweeen  : ")
+'''s=input("Enter the three digits with \", \"in betweeen  : ")
 x,y,z=s.split(",")
 a=int(x)
 b=int(y)
@@ -98,3 +98,22 @@ elif c>=b :
         print("Largest number is :",a)
 else :
     print("Invalid")
+'''
+
+#4 Leap year 
+'''Write a program that takes a year as input and checks if it is a leap year or not .'''
+'''Hint :- A leap year is divisible by 4, except for years that are divisible by 100 but not divisible by 400 . '''
+#Sample input :- Enter a Year : 2024
+#Sample output :- It is a leap year
+
+year=int(input("Enter The Year : "))
+if year%100==0 :
+    if year%400!=0:
+        print("It is not a leap year")
+    else :
+        print("It is a leap year ")
+elif year%4==0:
+    print("It is a leap year.")
+else :
+    print("It is not a leap year.")
+ 
