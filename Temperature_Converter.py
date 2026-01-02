@@ -1,6 +1,7 @@
 #Temperature Converter
 '''Build a temperature converter program that allows the user to convert temperatures between celsius,kelvin and fahrenheit'''
-
+ #Sample input :- Enter the temperature : 32, Enter the Units(K or F or C) : c
+ #Sample output :- Temperature in Fahrenheit : 89.6F, Temperature in Kelvin : 305k
 a=int(input("Enter the temperature : "))
 u=input("Enter the operator : ")
 s=u.lower()
