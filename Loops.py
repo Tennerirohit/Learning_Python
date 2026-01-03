@@ -32,7 +32,25 @@ while (cnt < 3):
 
 #Nested Loops
 
-for i in range(1, 5):
+'''for i in range(1, 5):
     for j in range(i):
         print(i, end=' ')
-    print()
+    print()'''
+
+
+#Loop Control Statements
+
+#Continue Statement
+
+'''for letter in 'Tennerirohit':
+    if letter == 'n' or letter == 'i':
+        continue
+    print('Current Letter :', letter)'''
+
+#Break Statement
+
+for letter in 'geeksforgeeks':
+    if letter == 'r' or letter == 's':
+        break
+
+print('Current Letter :', letter)
