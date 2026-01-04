@@ -135,6 +135,3 @@ elif s =="k":
     print("Temperature in Fahrenheit : ",(a-273.15)* 9/5 + 32)
 else :
     print("Invalid operator")
-
-
-

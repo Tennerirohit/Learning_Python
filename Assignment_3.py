@@ -39,9 +39,9 @@ for i in range (1,n+1,2) :
 
 '''5. Calculate the factorial of the number '''
 
-n=int(input("Enter the digit : "))
+'''n=int(input("Enter the digit : "))
 fact=1
 while n>0:
     fact=fact*n
     n-=1
-print(fact)
+print(fact)'''

@@ -49,8 +49,8 @@ while (cnt < 3):
 
 #Break Statement
 
-for letter in 'geeksforgeeks':
-    if letter == 'r' or letter == 's':
+for letter in 'tennerirohit':
+    if letter == 'r' or letter == 'i':
         break
 
 print('Current Letter :', letter)
