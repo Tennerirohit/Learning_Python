@@ -29,6 +29,28 @@ print(s)
 s[1] = "Hello"
 print(s)'''
 
+#Python Frozen Sets
+'''Frozen sets in Python are immutable objects that only support methods and operators that produce a result without 
+   affecting the frozen set or sets to which they are applied. It can be done with frozenset() method in Python.
+   While elements of a set can be modified at any time, elements of the frozen set remain the same after creation. 
+   If no parameters are passed, it returns an empty frozenset.'''
+
+# Same as {"a", "b","c"}
+s = set(["a", "b","c"])
+
+print("Normal Set")
+print(s)
+
+# A frozen set
+fs = frozenset(["e", "f", "g"])
+
+print("\nFrozen Set")
+print(fs)
+
+# Uncommenting below line would cause error as
+# we are trying to add element to a frozen set
+# fs.add("h")
+
 #Methods for Sets
 #1. Adding elements to Sets
 
@@ -110,11 +132,11 @@ print(set3)'''
 
 #5. Clearing Python Sets
 
-set1 = {1,2,3,4,5,6}
+'''set1 = {1,2,3,4,5,6}
 print("Initial set")
 print(set1)
 
 # This method will remove all the elements of the set
 set1.clear()
 print("\nSet after using clear() function")
-print(set1)
+print(set1)'''
